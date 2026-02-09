@@ -1,7 +1,5 @@
 package com.employeeProject.employees.controller;
 
-import com.employeeProject.employees.EmployeesApplication;
-import com.employeeProject.employees.dao.EmployeeDAO;
 import com.employeeProject.employees.entity.Employee;
 import com.employeeProject.employees.request.EmployeeRequest;
 import com.employeeProject.employees.service.EmployeeService;
@@ -9,9 +7,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.Min;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
-import org.springframework.transaction.annotation.Transactional;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
